@@ -13,18 +13,18 @@
     <title>Sidebar</title>
 </head>
 <body class="bg-bgColor font-poppins text-xl flex gap-4">
-    <aside class="bg-green h-screen w-2/4 p-4">
+    <aside class="bg-green h-screen w-auto p-4">
         <div class="aside__top flex justify-between mb-6">
-            <img src="src/images/logo.svg" alt="">
-            <img src="src/images/menu.svg" alt="">
+            <img src="src/images/logo.svg" class="hidden" alt="Vet logo">
+            <img src="src/images/menu.svg" alt="Menu">
         </div>
 
         <ul class="text-sm text-textColor flex flex-col gap-6">
-            <li class="flex gap-2"><img src="src/images/grid.svg" alt="Grid icon">Dashboard</li>
-            <li class="flex gap-2"><img src="src/images/pet.svg" alt="Pets icon">Pets</li>
-            <li class="flex gap-2"><img src="src/images/user.svg" alt="Client icon">Clientes</li>
-            <li class="flex gap-2"><img src="src/images/vet.svg" alt="Vet icon">Vets</li>
-            <li class="flex gap-2"><img src="src/images/settings.svg" alt="Settings icon">Ajustes</li>
+            <li class="flex gap-2"><img src="src/images/grid.svg" alt="Grid icon"><p class="hidden">Dashboard</p></li>
+            <li class="flex gap-2"><img src="src/images/pet.svg" alt="Pets icon"><p class="hidden">Pets</p></li>
+            <li class="flex gap-2"><img src="src/images/user.svg" alt="Client icon"><p class="hidden">Clientes</p></li>
+            <li class="flex gap-2"><img src="src/images/vet.svg" alt="Vet icon"><p class="hidden">Vets</p></li>
+            <li class="flex gap-2"><img src="src/images/settings.svg" alt="Settings icon"><p class="hidden">Ajustes</p></li>
         </ul>
 
         <div class="asside__profile bg-lightGreen opacity-100 py-2">
@@ -32,7 +32,7 @@
         </div>
     </aside>
 
-    <h1>Dashboard</h1>
+    <h1 class="p-4">Dashboard</h1>
     
 </body>
 </html>
