@@ -6,7 +6,8 @@ let liText2 = document.querySelector('.li__text--second');
 let liText3 = document.querySelector('.li__text--third');
 let liText4 = document.querySelector('.li__text--fourth');
 let liText5 = document.querySelector('.li__text--fifth');
-let user = document.querySelector('#user__info');
+let userPic = document.querySelector('#user__pic');
+let userInfo = document.querySelector('.user__info');
 
 openSide.addEventListener("click", openMenu);
 closeSide.addEventListener("click", closeMenu);
@@ -20,7 +21,8 @@ function openMenu () {
     liText3.style.display = "inline";
     liText4.style.display = "inline";
     liText5.style.display = "inline";
-    user.style.display = "none"
+    userPic.style.display = "block";
+    userInfo.style.display = "block";
 }
 
 function closeMenu () {
@@ -32,5 +34,6 @@ function closeMenu () {
     liText3.style.display = "none";
     liText4.style.display = "none";
     liText5.style.display = "none";
-    user.style.display = "flex";
+    userPic.style.display = "none";
+    userInfo.style.display = "none";
 }
