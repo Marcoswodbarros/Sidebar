@@ -2,6 +2,7 @@ let openSide = document.querySelector('#menu__closed');
 let closeSide = document.querySelector('#menu__opened');
 let vetLogo = document.querySelector('#vet__logo');
 let nav = document.querySelector('nav');
+let input = document.querySelector('input');
 let liText1 = document.querySelector('.li__text--first');
 let liText2 = document.querySelector('.li__text--second');
 let liText3 = document.querySelector('.li__text--third');
@@ -19,6 +20,7 @@ function openMenu () {
     closeSide.style.display = "block";
     vetLogo.style.display = "block";
     nav.style.width = "25rem";
+    input.style.width = "90%";
     liText1.style.display = "inline";
     liText2.style.display = "inline";
     liText3.style.display = "inline";
@@ -34,6 +36,7 @@ function closeMenu () {
     closeSide.style.display = "none";
     vetLogo.style.display = "none";
     nav.style.width = "auto";
+    input.style.width = "2rem";
     liText1.style.display = "none";
     liText2.style.display = "none";
     liText3.style.display = "none";
