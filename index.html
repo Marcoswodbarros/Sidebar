@@ -14,15 +14,16 @@
 </head>
 
 <body class="bg-bodyBgColor font-poppins text-xl flex gap-4">
-    <nav class="bg-green h-screen w-auto relative">
+    <nav class="bg-green h-screen w-auto relative z-20">
         <div class="aside__top flex justify-between mb-6 p-4">
             <img src="src/images/logo.svg" id="vet__logo" class="hidden" alt="Vet logo">
             <img src="src/images/menu.svg" id="menu__closed" class=" cursor-pointer" alt="Menu">
             <img src="src/images/menu.svg" id="menu__opened" class="hidden cursor-pointer" alt="Menu">
         </div>
 
-        <div class="p-4">
-            <img src="src/images/search.svg" alt="Search">
+        <div class="p-4 relative">
+            <img src="src/images/search.svg" class="z-30" alt="Search">
+            <input type="search" name="" class="h-8 w-8 rounded absolute right-3 bottom-3 -z-10" id="">
         </div>
 
         <ul class="text-base text-textColor flex flex-col gap-6 px-4">
