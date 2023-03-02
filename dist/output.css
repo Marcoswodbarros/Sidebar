@@ -789,3 +789,53 @@ video {
 .duration-700 {
   transition-duration: 700ms;
 }
+
+.hover\:bg-black:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-lightGreen:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(142 215 198 / var(--tw-bg-opacity));
+}
+
+.hover\:p-2:hover {
+  padding: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .tablet\:hover\:bg-lightGreen:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(142 215 198 / var(--tw-bg-opacity));
+  }
+
+  .tablet\:hover\:p-2:hover {
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .laptop\:hover\:bg-lightGreen:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(142 215 198 / var(--tw-bg-opacity));
+  }
+
+  .laptop\:hover\:p-2:hover {
+    padding: 0.5rem;
+  }
+
+  .hover\:laptop\:p-2:hover {
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .desktop\:hover\:p-2:hover {
+    padding: 0.5rem;
+  }
+
+  .hover\:desktop\:p-2:hover {
+    padding: 0.5rem;
+  }
+}
