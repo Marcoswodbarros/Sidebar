@@ -708,8 +708,21 @@ video {
   background-color: rgb(220 228 227 / var(--tw-bg-opacity));
 }
 
+.bg-lightGrey {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 228 227 / var(--tw-bg-opacity));
+}
+
 .p-4 {
   padding: 1rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-4 {
@@ -788,6 +801,10 @@ video {
 
 .duration-700 {
   transition-duration: 700ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hover\:bg-black:hover {
