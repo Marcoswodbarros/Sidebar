@@ -811,6 +811,16 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.placeholder\:bg-lightGreen::-moz-placeholder {
+  --tw-bg-opacity: 1;
+  background-color: rgb(142 215 198 / var(--tw-bg-opacity));
+}
+
+.placeholder\:bg-lightGreen::placeholder {
+  --tw-bg-opacity: 1;
+  background-color: rgb(142 215 198 / var(--tw-bg-opacity));
+}
+
 .placeholder\:p-2::-moz-placeholder {
   padding: 0.5rem;
 }
@@ -856,6 +866,11 @@ video {
 .hover\:bg-lightGrey:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(220 228 227 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .hover\:p-2:hover {

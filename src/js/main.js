@@ -15,7 +15,6 @@ let logout = document.querySelector('#logout');
 
 openSide.addEventListener("click", openMenu);
 closeSide.addEventListener("click", closeMenu);
-searchPic.addEventListener("click", openSearch);
 
 function openMenu () {
     openSide.style.display = "none";
@@ -26,6 +25,7 @@ function openMenu () {
     searchPic.style.position = "absolute";
     searchPic.style.bottom = "1rem";
     searchPic.style.left = "1.3rem";
+    searchPic.style.padding = "0";
     input.style.display = "block";
     liText1.style.display = "inline";
     liText2.style.display = "inline";
@@ -53,9 +53,3 @@ function closeMenu () {
     userInfo.style.display = "none";
     logout.style.marginLeft = "auto";
 }
-
-// function openSearch () {
-//     input.style.display = "block";
-//     nav.style.width = "25rem";
-//     input.style.width = "90%";
-// }
