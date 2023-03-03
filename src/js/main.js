@@ -3,6 +3,7 @@ let closeSide = document.querySelector('#menu__opened');
 let vetLogo = document.querySelector('#vet__logo');
 let nav = document.querySelector('nav');
 let input = document.querySelector('input');
+let searchPic = document.querySelector('#search__pic');
 let liText1 = document.querySelector('.li__text--first');
 let liText2 = document.querySelector('.li__text--second');
 let liText3 = document.querySelector('.li__text--third');
@@ -14,13 +15,15 @@ let logout = document.querySelector('#logout');
 
 openSide.addEventListener("click", openMenu);
 closeSide.addEventListener("click", closeMenu);
+searchPic.addEventListener("click", openSearch);
 
 function openMenu () {
     openSide.style.display = "none";
     closeSide.style.display = "block";
     vetLogo.style.display = "block";
     nav.style.width = "25rem";
-    input.style.width = "90%";
+    input.style.width = "85%";
+    input.style.display = "block";
     liText1.style.display = "inline";
     liText2.style.display = "inline";
     liText3.style.display = "inline";
@@ -37,6 +40,7 @@ function closeMenu () {
     vetLogo.style.display = "none";
     nav.style.width = "auto";
     input.style.width = "2rem";
+    input.style.display = "none";
     liText1.style.display = "none";
     liText2.style.display = "none";
     liText3.style.display = "none";
@@ -46,3 +50,9 @@ function closeMenu () {
     userInfo.style.display = "none";
     logout.style.marginLeft = "auto";
 }
+
+// function openSearch () {
+//     input.style.display = "block";
+//     nav.style.width = "25rem";
+//     input.style.width = "90%";
+// }
