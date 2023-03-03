@@ -21,8 +21,11 @@ function openMenu () {
     openSide.style.display = "none";
     closeSide.style.display = "block";
     vetLogo.style.display = "block";
-    nav.style.width = "25rem";
-    input.style.width = "85%";
+    nav.style.width = "20rem";
+    input.style.width = "90%";
+    searchPic.style.position = "absolute";
+    searchPic.style.bottom = "1rem";
+    searchPic.style.left = "1.3rem";
     input.style.display = "block";
     liText1.style.display = "inline";
     liText2.style.display = "inline";
@@ -39,8 +42,8 @@ function closeMenu () {
     closeSide.style.display = "none";
     vetLogo.style.display = "none";
     nav.style.width = "auto";
-    input.style.width = "2rem";
     input.style.display = "none";
+    searchPic.style.position = "static";
     liText1.style.display = "none";
     liText2.style.display = "none";
     liText3.style.display = "none";
