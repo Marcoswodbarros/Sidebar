@@ -1,4 +1,4 @@
-# Landing Pages - Sidebar
+# Rocketseat Challenge - Sidebar
 
 This is my fifth challenge from Rocketseat.
 
@@ -39,6 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Marcoswodbarros/Sidebar.git]
+- Deploy: [https://marcoswodbarros.github.io/Sidebar/]
 
 
 ## My process
